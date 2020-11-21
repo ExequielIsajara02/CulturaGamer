@@ -1,0 +1,183 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Hind Siliguri', sans-serif;
+}
+
+/* Header */
+
+header {
+	
+	border: 1px solid #f00;
+	padding: 30px;
+	background: #FFA000;
+	background: linear-gradient(to bottom, #FFA000 0%, #F09100 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FFA000), color-stop(100%, #F09100));
+	background: -webkit-linear-gradient(top, #FFA000 0%, #F09100 100%);
+	background: -moz-linear-gradient(top, #FFA000 0%, #F09100 100%);
+	background: -o-linear-gradient(top, #FFA000 0%, #F09100 100%);
+	background: -ms-linear-gradient(top, #FFA000 0%, #F09100 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFA000', endColorstr='#F09100', GradientType=0);
+	border: 1px solid #E18200;
+	box-shadow: inset 0 1px 0 #FFAF0F;
+	-webkit-box-shadow: inset 0 1px 0 #FFAF0F;
+	-moz-box-shadow: inset 0 1px 0 #FFAF0F;
+
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+/* Titulo-logo */
+
+.title-logo {
+	display: inline-block;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.title-logo h1{
+	color: #b71c1c;
+	display: inline-block;
+	text-align: left;
+	font-weight: bold;
+	font-family: 'Secular One', sans-serif;
+}
+
+header .logo {
+	background: #fff;
+	border: 1px solid #b71c1c;
+	border-radius: 6px;
+	padding: 5px;
+	display: inline-block;
+	margin-right: 4px;
+}
+
+
+/* Nav */
+nav {
+	width: 50%;
+	color: #dd2c00;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+
+.nav-item a {
+	margin: 25px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: 'Hind Siliguri', sans-serif;
+	
+}
+
+.nav-item a:hover {
+	color: #bdbdbd;
+}
+
+input {
+	width: 250px;
+	padding: 8px;
+	margin-left: 20px;
+	border-radius: 10px;
+	outline: none;
+}
+
+
+
+/* Formulario */
+form {
+	font-weight: bold;
+	height: 100vh;
+	margin: auto;
+	padding: 30px;
+}
+
+.formulario {
+	background: #37474f;
+	width: 400px;
+	height: 500px;
+	border-radius: 6px;
+	margin: auto;
+}
+
+.formulario h3 {
+	text-align: center;
+}
+
+
+
+.contact input {
+	padding: 10px;
+	margin: 10px 40px;
+	width: 300px;
+	border-radius: 4px;
+}
+
+
+
+.buttons input {
+	width: 100px;
+	padding: 2px;
+	border-radius: 4px; 
+}
+
+.confirm {
+	text-align: center;
+	font-size: 15px;
+	padding-top: 10px;
+}
+
+.mensaje input {
+	padding: 10px;
+	margin: 5px 40px;
+	height: 50px;
+	width: 300px;
+	border-radius: 4px;
+}
+
+.buttons div {
+	margin-left: 100px;
+}
+
+
+/* Footer */
+
+footer {
+	background: #FFA000;
+	background: linear-gradient(to bottom, #FFA000 0%, #F09100 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FFA000), color-stop(100%, #F09100));
+	background: -webkit-linear-gradient(top, #FFA000 0%, #F09100 100%);
+	background: -moz-linear-gradient(top, #FFA000 0%, #F09100 100%);
+	background: -o-linear-gradient(top, #FFA000 0%, #F09100 100%);
+	background: -ms-linear-gradient(top, #FFA000 0%, #F09100 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFA000', endColorstr='#F09100', GradientType=0);
+	border: 1px solid #E18200;
+	box-shadow: inset 0 1px 0 #FFAF0F;
+	-webkit-box-shadow: inset 0 1px 0 #FFAF0F;
+	-moz-box-shadow: inset 0 1px 0 #FFAF0F;
+	padding: 40px;
+	text-align: right;
+
+}
+
+footer p {
+	display: inline;
+}
+
+footer a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+/* Fin del codigo */
+
+

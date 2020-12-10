@@ -13,69 +13,85 @@
 
     <!-- Mi CSS -->
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="../images/logo.ico">
     <script src="https://kit.fontawesome.com/d0ae21f08c.js" crossorigin="anonymous"></script>
     <title>Cultura Gamer</title>
   </head>
 
   	<body>
-		<div class="container-fluid header">
-			
-            <!-- Header -->
-        	<div class="row">
-            	<div class=" col-lg-10 col-xs-12 header__title">
-                	<h1 class="header__title--modification">Cultura Gamer</h1>
-            	</div>
-        
-            	<div class="col-lg-2 col-xs-12 headerNetwork">
-                	<div class="headerNetwork__icon">
-                    	<a href="http://facebook.com" target="_blank"><img src="../images/facebook.png" alt="facebook" title="facebook"></a>
-                	</div>
-                	<div class="headerNetwork__icon">
-                    	<a href="http://instagram.com" target="_blank"><img src="../images/instagram.png" alt="instagram" title="instagram"></a>
-                	</div>
-                	<div class="headerNetwork__icon">
-                    	 <a href="http://twitter.com" target="_blank"><img src="../images/twitter.png" alt="twitter" title="twitter"></a>
-                	</div>
-            	</div>
-        	</div>
-        	
-            <!-- Navigation-->
-        	<div class="row navigation">
-            	<div class="col-lg-9 col-xs-12 nav">
-                	<nav class="navbar navbar-expand-lg navbar-light">
-                    	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="btn btn-outline-dark">
-                    	<span class="navbar-toggler-icon"></span>
-                    	</button>
-                    	<div class="collapse navbar-collapse" id="navbarNav">
-                        	<ul class="navbar-nav">
-                            	<li class="nav-item">
-                                	<a class="nav-link" href="../index.html">Inicio</a>
-                            	</li>
-                            	<li class="nav-item">
-                                	<a class="nav-link" href="noticias.html">Noticias</a>
-                            	</li>
-                            	<li class="nav-item">
-                                	<a class="nav-link" href="analisis.html">Analisis</a>
-                            	</li>
-                            	<li class="nav-item">
-                                	<a class="nav-link" href="consolas.html">Consolas</a>
-                            	</li>
-                            	<li class="nav-item">
-                                	<a class="nav-link" href="contacto.html">Contacto</a>
-                            	</li>
-                        	</ul>
-                    	</div>
-                	</nav>  
-            	</div>
+	   <!-- Header -->
+        <div class="container-fluid header">
+            <div class="row header__content">
+                <div class=" col-lg-12 col-xs-12 header__title">
+                    <h1 class="header__title--modification"><img src="../images/logo.png" alt="Logo">CULTURA GAMER</h1>
+                </div>
+            </div>
 
-            	<!-- Browser -->
-            	<div class="col-lg-2 col-xs-12 browser">
-                	<input class="browser__input" type="text" name="" placeholder="Buscar">
-            	</div>
-        	</div>
-    	</div>
+            <input type="checkbox" id="button__menu">
+            <label for="button__menu" class="button__icon">
+                <span class="button__icon__bars fas fa-bars"></span>
+            </label>
+       
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__list__item">
+                        <div class="navigation__image">
+                            <img src="../images/marioBros.png" alt="Mario Bros">
+                        </div>
+                        <a href="../index.html" class="navigation__list__item__link">Inicio</a>
+                    </li>
+                    <li class="navigation__list__item">
+                        <div class="navigation__image">
+                            <img src="../images/cuphead.png" alt="Cuphead">
+                        </div>
+                        <a href="noticias.html" class="navigation__list__item__link">Noticias</a>
+                    </li>
+                    <li class="navigation__list__item">
+                        <div class="navigation__image">
+                            <img src="../images/sonic.png" alt="Sonic">
+                        </div>
+                        <a href="analisis.html" class="navigation__list__item__link">Analisis</a>
+                    </li>
+                    <li class="navigation__list__item">
+                        <div class="navigation__image">
+                            <img src="../images/sackBoy.png" alt="SackBoy">
+                        </div>
+                        <a href="consolas.html" class="navigation__list__item__link">Consolas</a>
+                    </li>
+                    <li class="navigation__list__item">
+                        <div class="navigation__image">
+                            <img src="../images/Pac-Man.png" alt="Pac-Man">
+                        </div>
+                        <a href="contacto.html" class="navigation__list__item__link">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="browser">
+                 <input class="browser__input" type="text" name="" placeholder="¿Que estás buscando?" autocomplete="off">
+                <div class="browser__icon">
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Redes sociales -->
+        <div class="social">
+            <input type="checkbox" id="btn-more">
+            <div class="socialNetwork">
+                <a href="#" target="_blank" class="fab fa-whatsapp socialNetwork__icon"></a>
+                <a href="http://facebook.com" target="_blank" class="fab fa-facebook-f socialNetwork__icon"></a>
+                <a href="http://instagram.com" target="_blank" class="fab fa-instagram socialNetwork__icon"></a>
+                <a href="http://twitter.com" target="_blank" class="fab fa-twitter socialNetwork__icon"></a>
+            </div>
+            <div class="btn-more">
+                <label for="btn-more" class="fas fa-plus icon-more"></label>
+            </div>
+        </div>
 
     	<!-- Sections -->
     	<div class="container secciones">
@@ -84,16 +100,22 @@
     				<h3 class="sections__title">Noticias</h3>
     			</div>
     		</div>
+
+            <div class="row">
+                <div class="col-lg-12 col-xs-12 popular">
+                    <h4 class="popular__title">Recientes</h4>
+                </div>
+            </div>
     		
     		<div class="row section">
     			<div class="col-lg-12 col-xs-12 section__news">
     				<div class="section__imageText">
     					<div class="section__image">
-    						<img src="../images/nes.jpg" class="section__image__img" alt="Nes">
+    						<img src="../images/Cyberpunk2077.jpeg" class="section__image__img" alt="Cyberpunk2077">
     					</div>
     					<div class="section__text">
-    						<p class="section__text__title">Titulo de la noticia</p>
-    						<p class="setion_text__parrafo">Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Et, reiciendis, corporis exercitationem consequatur culpa repudiandae facere porro autem magnam incidunt non sit maiores velit voluptates sint, odio. Minima, autem ea.</p>
+    						<p class="section__text__title">Los DLC de Cyberpunk 2077 llegaran a principio de 2021</p>
+    						<p class="setion_text__parrafo">CD Project red afirma que también habrá expansiones futuras, que aportarán nuevas misiones secundarias, armas y más contenido que harán expandir la historia.</p>
     					</div>
     				</div>
     			</div>
@@ -102,8 +124,12 @@
     			<div class="col-lg-12 col-xs-12 section__news">
     				<div class="section__imageText">
     					<div class="section__image">
-    						<img src="../images/nes.jpg" class="section__image__img" alt="Nes">
+    						<img src="../images/haloInfinite.jpg" class="section__image__img" alt="Halo Infinite">
     					</div>
+                        <div class="section__text">
+                            <p class="section__text__title">Halo infinite muestra nuevas imágenes de su multijugador</p>
+                            <p class="setion_text__parrafo">La exclusiva de Xbox muestra algunos adelantos de su multijugador en forma de imágenes, que dejan ver mapas, armaduras y algunas armas.</p>
+                        </div>
     				</div>
     			</div>
     		</div>
@@ -112,8 +138,12 @@
     			<div class="col-lg-12 col-xs-12 section__news">
     				<div class="section__imageText">
     					<div class="section__image">
-    						<img src="../images/nes.jpg" class="section__image__img" alt="Nes">
+    						<img src="../images/ghostOfTsushima.jpg" class="section__image__img" alt="Ghost of Tsushima">
     					</div>
+                        <div class="section__text">
+                            <p class="section__text__title">Ghost of Tsushima el favorito de los usuarios para llevarse el GOTY de 2020</p>
+                            <p class="setion_text__parrafo">El título de Sucker punch es uno de los grandes candidatos a llevarse el premio a mejor juego del año, y esto se debe al gran apoyo que ha obtenido por la mayoría de los jugadores.</p>
+                        </div>
     				</div>
     			</div>
     		</div>
@@ -122,8 +152,12 @@
     			<div class="col-lg-12 col-xs-12 section__news">
     				<div class="section__imageText">
     					<div class="section__image">
-    						<img src="../images/nes.jpg" class="section__image__img" alt="Nes">
+    						<img src="../images/warcraft.jpg" class="section__image__img" alt="Warcraft">
     					</div>
+                        <div class="section__text">
+                            <p class="section__text__title">World of Warcraft: Shadowland ya es el mas vendido en pc</p>
+                            <p class="setion_text__parrafo">Blizzard Entertainment indica que 24 horas después de su lanzamiento el juego vendió la extraordinaria cifra de 3.7 millones de copias.</p>
+                        </div>
     				</div>
     			</div>
     		</div>
@@ -132,20 +166,121 @@
     			<div class="col-lg-12 col-xs-12 section__news">
     				<div class="section__imageText">
     					<div class="section__image">
-    						<img src="../images/nes.jpg" class="section__image__img" alt="Nes">
+    						<img src="../images/gearOfWar.jpg" class="section__image__img" alt="Gear of War">
     					</div>
+                        <div class="section__text">
+                            <p class="section__text__title">Gear of War: Hiverbusters se estrenara gratis en el Xbox Game Pass</p>
+                            <p class="setion_text__parrafo">Tres horas de campaña adicional que aprovecharán en Xbox Series X|S las mejoras del videojuego de The Coalition.</p>
+                        </div>
     				</div>
     			</div>
     		</div>
+
+            <div class="row">
+                <div class="col-lg-12 col-xs-12 separador">
+                    <img src="../images/gamepad.png" alt="Gamepad">
+                    <img src="../images/gamepad.png" alt="Gamepad">
+                    <img src="../images/gamepad.png" alt="Gamepad">
+                    <img src="../images/gamepad.png" alt="Gamepad">
+                    <img src="../images/gamepad.png" alt="Gamepad">
+                    <img src="../images/gamepad.png" alt="Gamepad">
+                    <img src="../images/gamepad.png" alt="Gamepad">
+                    <img src="../images/gamepad.png" alt="Gamepad">
+                </div>
+            </div>
     		
-            <!-- Footer -->
-        	<div class="row footer">
-            	<div class="col-lg-12 col-xs-12 footer__text">
-                	<h4 class="footer__text__title--modification">Cultura Gamer</h4>
-                	<p class="footer__text__paragraph--modification">Cultura Gamer es un sitio<br> web sobre videojuegos de<br> argentina, el cual contiene<br> noticias, análisis, avances<br> y muchos mas.</p>
-       	 		</div>
-    		</div>
-    	</div>
+            <div class="row">
+                <div class="col-lg-12 col-xs-12 popular">
+                    <h4 class="popular__title">Mas popular</h4>
+                </div>
+            </div>
+            
+            <div class="row section">
+                <div class="col-lg-12 col-xs-12 section__news">
+                    <div class="section__imageText">
+                        <div class="section__image">
+                            <img src="../images/littleNightmare2.jpg" class="section__image__img" alt="Little Nightmare">
+                        </div>
+                        <div class="section__text">
+                            <p class="section__text__title">La demo de Little Nightmare 2 ya esta disponible en Steam</p>
+                            <p class="setion_text__parrafo">La demo nos permite disfrutar de un fragmento del juego, en el que controlaremos a Mono, con el cual deberemos atravesar un bosque muy tenebroso. El juego estara disponible disponible el proximo 11 de febrero para PS4, Xbox One, Swicht y PC. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row section">
+                <div class="col-lg-12 col-xs-12 section__news">
+                    <div class="section__imageText">
+                        <div class="section__image">
+                            <img src="../images/Control.jpg" class="section__image__img" alt="Control">
+                        </div>
+
+                        <div class="section__text">
+                            <p class="section__text__title">Control supera las 2 millones de copias vendidas</p>
+                            <p class="setion_text__parrafo">En Remedy anunciaron muy felizmente la cifra que alcanza su ultimo titulo, el cual alcanzo en dicho numero, gracias a la gran subida en ventas que tuvo el ultimo mes de noviembre. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row section">
+                <div class="col-lg-12 col-xs-12 section__news">
+                    <div class="section__imageText">
+                        <div class="section__image">
+                            <img src="../images/Yakuza.jpg" class="section__image__img" alt="Yakuza">
+                        </div>
+
+                        <div class="section__text">
+                            <p class="section__text__title">Sega ya trabaja en un nuevo Yakuza</p>
+                            <p class="setion_text__parrafo">Tras el exito y la gran aceptacion que tuvo Yakuza Like a Dragon, Sega ya esta trabajando en una siguente entrega de la saga. Esto se debe a que la compañia quiere festejar los 15 años la franquicia.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row section">
+                <div class="col-lg-12 col-xs-12 section__news">
+                    <div class="section__imageText">
+                        <div class="section__image">
+                            <img src="../images/xCloud.jpg" class="section__image__img" alt="xCloud">
+                        </div>
+
+                        <div class="section__text">
+                            <p class="section__text__title">La beta xCloud llegara a IOS y PC para primavera del 2021</p>
+                            <p class="setion_text__parrafo">Los usuarios de Xbox podran disfrutar del juego en la nube con su suscripcion de Xbox Game Pass Ultimate, mientras que los de IOS lo podran hacer através del navegador web.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row section">
+                <div class="col-lg-12 col-xs-12 section__news">
+                    <div class="section__imageText">
+                        <div class="section__image">
+                            <img src="../images/Cyberpunk20774.jpg" class="section__image__img" alt="Cyberpunk2077">
+                        </div>
+
+                        <div class="section__text">
+                            <p class="section__text__title">CD Projekt Red responde a la polémica sobre el contenido sensible para epilépticos de Cyberpunk 2077</p>
+                            <p class="setion_text__parrafo">La compañia polaca respondio en su cuenta de Twitter, que estan trabajando en una solucion, pero ademas agregaron que ya existe una advertencia para los usuarios que padescan antecedentes epilepticos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="container-fluid footerContent">
+            <div class="row footer">
+                <div class="col-lg-12 col-xs-12 footer__text">
+                    <div class="footer__text__content">
+                        <img src="../images/logo.png">
+                        <h4 class="footer__text__content__title">CULTURA GAMER</h4>
+                    </div>
+                    <p class="footer__text__copyright">Copyright © 2020 Culturagamer Todos los derechos reservados</p>
+                </div>
+            </div>
+        </div>
 	
 
 

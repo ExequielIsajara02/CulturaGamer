@@ -1,3 +1,11 @@
 1) Descargar normalize.css
 
 2) Agregar icon de pestaña
+
+- Solucionar el error en el slider.
+
+- Acomodar el titulo de las secciones para que quede bien en el responsive.
+
+- Descargar imagenes con mejor resolucion para las secciones.
+
+- Copiar lo de noticias y pegarlo en las otras secciones.
